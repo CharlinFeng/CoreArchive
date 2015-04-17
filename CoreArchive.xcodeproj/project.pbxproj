@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895796B31AE1098E00E8B04A /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 895796B21AE1098E00E8B04A /* NSString+File.m */; };
 		EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8B1AA9A513000BA4AE /* main.m */; };
 		EE5A8A8F1AA9A513000BA4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8E1AA9A513000BA4AE /* AppDelegate.m */; };
 		EE5A8A921AA9A513000BA4AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A911AA9A513000BA4AE /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		895796B11AE1098E00E8B04A /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		895796B21AE1098E00E8B04A /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
 		EE5A8A861AA9A513000BA4AE /* CoreArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5A8A8A1AA9A513000BA4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5A8A8B1AA9A513000BA4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		895796B01AE1098600E8B04A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				895796B11AE1098E00E8B04A /* NSString+File.h */,
+				895796B21AE1098E00E8B04A /* NSString+File.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		EE5A8A7D1AA9A513000BA4AE = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 		EE5A8AAF1AA9A550000BA4AE /* CoreArchive */ = {
 			isa = PBXGroup;
 			children = (
+				895796B01AE1098600E8B04A /* Category */,
 				EE5A8AB01AA9A550000BA4AE /* CoreArchive.h */,
 				EE5A8AB11AA9A550000BA4AE /* CoreArchive.m */,
 			);
@@ -234,6 +247,7 @@
 			files = (
 				EE5A8AB21AA9A550000BA4AE /* CoreArchive.m in Sources */,
 				EE5A8A921AA9A513000BA4AE /* ViewController.m in Sources */,
+				895796B31AE1098E00E8B04A /* NSString+File.m in Sources */,
 				EE5A8A8F1AA9A513000BA4AE /* AppDelegate.m in Sources */,
 				EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */,
 			);
@@ -426,6 +440,7 @@
 				EE5A8AAB1AA9A513000BA4AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5A8AAC1AA9A513000BA4AE /* Build configuration list for PBXNativeTarget "CoreArchiveTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +449,7 @@
 				EE5A8AAE1AA9A513000BA4AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
