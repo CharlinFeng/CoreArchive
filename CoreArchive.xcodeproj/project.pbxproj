@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		895796B31AE1098E00E8B04A /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 895796B21AE1098E00E8B04A /* NSString+File.m */; };
+		895796B31AE1098E00E8B04A /* NSString+ArcFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 895796B21AE1098E00E8B04A /* NSString+ArcFile.m */; };
 		EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8B1AA9A513000BA4AE /* main.m */; };
 		EE5A8A8F1AA9A513000BA4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8E1AA9A513000BA4AE /* AppDelegate.m */; };
 		EE5A8A921AA9A513000BA4AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A911AA9A513000BA4AE /* ViewController.m */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		895796B11AE1098E00E8B04A /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
-		895796B21AE1098E00E8B04A /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		895796B11AE1098E00E8B04A /* NSString+ArcFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArcFile.h"; sourceTree = "<group>"; };
+		895796B21AE1098E00E8B04A /* NSString+ArcFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArcFile.m"; sourceTree = "<group>"; };
 		EE5A8A861AA9A513000BA4AE /* CoreArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5A8A8A1AA9A513000BA4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5A8A8B1AA9A513000BA4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		895796B01AE1098600E8B04A /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				895796B11AE1098E00E8B04A /* NSString+File.h */,
-				895796B21AE1098E00E8B04A /* NSString+File.m */,
+				895796B11AE1098E00E8B04A /* NSString+ArcFile.h */,
+				895796B21AE1098E00E8B04A /* NSString+ArcFile.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 			files = (
 				EE5A8AB21AA9A550000BA4AE /* CoreArchive.m in Sources */,
 				EE5A8A921AA9A513000BA4AE /* ViewController.m in Sources */,
-				895796B31AE1098E00E8B04A /* NSString+File.m in Sources */,
+				895796B31AE1098E00E8B04A /* NSString+ArcFile.m in Sources */,
 				EE5A8A8F1AA9A513000BA4AE /* AppDelegate.m in Sources */,
 				EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */,
 			);

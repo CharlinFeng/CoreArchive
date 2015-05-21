@@ -10,7 +10,7 @@
 
 
 
-@interface NSString (File)
+@interface NSString (ArcFile)
 
 
 /*

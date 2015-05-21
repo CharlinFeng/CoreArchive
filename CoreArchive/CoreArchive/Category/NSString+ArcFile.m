@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 沐汐. All rights reserved.
 //
 
-#import "NSString+File.h"
+#import "NSString+ArcFile.h"
 
-@implementation NSString (File)
+@implementation NSString (ArcFile)
 
 /*
  *  document根文件夹

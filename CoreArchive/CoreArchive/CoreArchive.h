@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "NSString+File.h"
+#import "NSString+ArcFile.h"
 
 
 @interface CoreArchive : NSObject
