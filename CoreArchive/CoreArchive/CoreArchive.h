@@ -56,6 +56,19 @@
 
 
 /**
+ *  保存double
+ */
++(void)setDouble:(double)doubleValue key:(NSString *)key;
+
+
+/**
+ *  读取double
+ */
++(double)doubleForKey:(NSString *)key;
+
+
+
+/**
  *  保存bool
  */
 +(void)setBool:(BOOL)boolValue key:(NSString *)key;

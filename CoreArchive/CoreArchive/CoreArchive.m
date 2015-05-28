@@ -84,6 +84,7 @@
 }
 //读取
 +(CGFloat)floatForKey:(NSString *)key{
+    
     //获取preference
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
@@ -92,6 +93,38 @@
     
     return floatValue;
 }
+
+
+/**
+ *  保存double
+ */
++(void)setDouble:(double)doubleValue key:(NSString *)key{
+    
+    //获取preference
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    //保存
+    [defaults setDouble:doubleValue forKey:key];
+    
+    //立即同步
+    [defaults synchronize];
+}
+
+
+/**
+ *  读取double
+ */
++(double)doubleForKey:(NSString *)key{
+    
+    //获取preference
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    //读取
+    double doubleValue=[defaults doubleForKey:key];
+    
+    return doubleValue;
+}
+
 
 
 //保存bool
