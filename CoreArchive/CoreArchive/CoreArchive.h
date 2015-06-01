@@ -9,6 +9,26 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "NSString+ArcFile.h"
+#import "NSObject+MJCoding.h"
+
+/** 自动存储宏定义 */
+#define CoreArchiiver_CACHE_PATH [[NSString cachesFolder] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.arc",NSStringFromClass(self)]]
+
+#define CoreArchiiver_MODEL_H \
++(BOOL)save:(id)model;\
++(instancetype)read;
+
+#define CoreArchiiver_MODEL_M \
+MJCodingImplementation\
++(BOOL)save:(id)model{\
+return [CoreArchive archiveRootObject:model toFile:CoreArchiiver_CACHE_PATH];\
+}\
++(instancetype)read{\
+return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
+}
+
+
+
 
 
 @interface CoreArchive : NSObject
@@ -94,11 +114,6 @@
  *  解档
  */
 +(id)unarchiveObjectWithFile:(NSString *)path;
-
-
-
-
-
 
 
 

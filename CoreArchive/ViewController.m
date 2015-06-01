@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UserModel.h"
+
 
 @interface ViewController ()
 
@@ -16,12 +18,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UserModel *userModel = [[UserModel alloc] init];
+    
+    userModel.name = @"张三";
+    
+    userModel.age = 27;
+    
+    BOOL res = [UserModel save:userModel];
+    
+    if(res){
+        NSLog(@"保存成功");
+    }else{
+        NSLog(@"保存失败");
+    }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+    UserModel *userModel =[UserModel read];
+    
+    
 }
+
+
+
+
 
 @end
