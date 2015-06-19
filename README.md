@@ -75,6 +75,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 >2.静态方式调用。<br />
 >3.基于MJExtension，有非常好用的宏定义，所以你可以一键完成文件的CURD。<br />
 >4.可以存储自定义单个对象，也可以存储自定义对象数组！
+>5.新版本增加自定义key支持。
 <br />
 
 ####框架特别优势：<br />
@@ -153,34 +154,36 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 
 
 #### 归档自定义对象：单个
-#### 一键归档自定义对象：
+#### 一键归档自定义对象：key：默认传nil为框架自动计算key，你也可以自定义key
         //一键归档
-        BOOL res = [UserModel saveSingleModel:userModel];
+        BOOL res = [UserModel saveSingleModel:userModel forKey:@"charlin"];
 
 #### 一键解档自定义对象：
         //一键解档
-        UserModel *userModel =[UserModel readSingleModel];
+        UserModel *userModel =[UserModel readSingleModelForKey];
         
 #### 一键销毁自定义对象：
         //删除本地归档
-        [UserModel save:nil];
+        [UserModel save:nil forKey:@"charlin"];
         
-#### 归档自定义对象：数组
+#### 归档自定义对象：数组。key：默认传nil为框架自动计算key，你也可以自定义key
 #### 一键归档自定义对象数组：
         //一键归档
-        BOOL res = [UserModel saveListModel:@[userModel1,userModel2,...]];
+        BOOL res = [UserModel saveListModel:@[userModel1,userModel2,...] forKey:nil];
 
 #### 一键解档自定义对象数组：
         //一键解档
-        NSArray *listModel = [UserModel readListModel];
+        NSArray *listModel = [UserModel readListModelForKey];
         
 #### 一键销毁自定义对象数组：
         //删除本地归档
-        [UserModel saveListModel:nil];
+        [UserModel saveListModel:nil forKey:nil];
         
 
 
-好了，简单吧，整体过程你不需要关心key，path这些，框架已经做好了
+好了，简单吧，整体过程你不需要关心key，path这些，框架已经做好了.
+注：应要求添加了自定义key的支持
+key：默认传nil为框架自动计算key，你也可以自定义key。当然，你存取key要保持一致。
 
 
 <br/>
