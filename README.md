@@ -172,7 +172,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 
 #### 一键解档自定义对象数组：
         //一键解档
-        UserModel *userModel =[UserModel readListModel];
+        NSArray *listModel = [UserModel readListModel];
         
 #### 一键销毁自定义对象数组：
         //删除本地归档
