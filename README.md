@@ -15,6 +15,20 @@
 <br /><br />
 
 
+CoreModel系列
+===============
+
+第一季：CoreFMDB
+https://github.com/nsdictionary/CoreFMDB
+
+
+本框架是隶属于MJExtension续作，我给这个项目取了一个整体上的名字叫做：CoreModel。
+CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态
+成都iOS开发群：<br />
+二群：369870753（新开，新鲜着呢，快加） <br />
+一群：163865401（已爆满，加不上了）  <br /><br />
+
+
 
 框架截图 CUT
 ===============
@@ -22,18 +36,8 @@
 
 
 
-版权申明 RIGHTS
-===============
-Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式的借鉴，请在您的Github里面注意来源，谢谢！<br />
-
-成都iOS开发群：<br />
-二群：369870753（新开，新鲜着呢，快加） <br />
-一群：163865401（已爆满，加不上了）  <br /><br />
-
-
 框架说明 EXPLAIN
 ===============
-     本框架是隶属于MJExtension续作，我给这个项目取了一个整体上的名字叫做：CoreModel。
      Charlin Feng原创MJExtension续作的目的：一来是向MJExtension致敬，
      二是封装大量ios开发者均迫切需要的功能，就是对数据的本地CURD。基于这个原因，
      所以CoreArchive也成为了CoreModel的成员。当然CoreArchive也因为解耦的原因而独立存在。
