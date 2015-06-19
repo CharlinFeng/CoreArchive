@@ -10,7 +10,7 @@
 
 @implementation UserModel
 
-CoreArchiiver_MODEL_M
+CoreArchiver_MODEL_M
 
 
 @end
