@@ -12,20 +12,33 @@
 #import "NSObject+MJCoding.h"
 
 /** 自动存储宏定义 */
-#define CoreArchiiver_CACHE_PATH [[NSString cachesFolder] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.arc",NSStringFromClass(self)]]
+#define CoreArchiver_SingCACHE_PATH [[NSString cachesFolder] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.arc",NSStringFromClass(self)]]
+
+#define CoreArchiver_ArrayCACHE_PATH [[NSString cachesFolder] stringByAppendingPathComponent:[NSString stringWithFormat:@"Array%@.arc",NSStringFromClass(self)]]
 
 #define CoreArchiiver_MODEL_H \
-+(BOOL)save:(id)model;\
-+(instancetype)read;
++(BOOL)saveSingleModel:(id)model;\
++(instancetype)readSingleModel;\
++(BOOL)saveListModel:(NSArray *)ListModel;\
++(NSArray *)readListModel;\
+
 
 #define CoreArchiiver_MODEL_M \
 MJCodingImplementation\
-+(BOOL)save:(id)model{\
-return [CoreArchive archiveRootObject:model toFile:CoreArchiiver_CACHE_PATH];\
++(BOOL)saveSingleModel:(id)model{\
+return [CoreArchive archiveRootObject:model toFile:CoreArchiver_SingCACHE_PATH];\
 }\
-+(instancetype)read{\
-return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
-}
++(instancetype)readSingleModel{\
+return [CoreArchive unarchiveObjectWithFile:CoreArchiver_SingCACHE_PATH];\
+}\
++(BOOL)saveListModel:(NSArray *)ListModel{\
+return [CoreArchive archiveRootObject:ListModel toFile:CoreArchiver_ArrayCACHE_PATH];\
+}\
++(NSArray *)readListModel{\
+return [CoreArchive unarchiveObjectWithFile:CoreArchiver_ArrayCACHE_PATH];\
+}\
+
+
 
 
 
@@ -136,6 +149,8 @@ return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
  *  解档
  */
 +(id)unarchiveObjectWithFile:(NSString *)path;
+
+
 
 
 

@@ -28,7 +28,7 @@
     
     userModel.age = 27;
     
-    BOOL res = [UserModel save:userModel];
+    BOOL res = [UserModel saveSingleModel:userModel];
     
     if(res){
         NSLog(@"保存成功");
@@ -38,6 +38,9 @@
     
 //    //删除本地归档
 //    [UserModel save:nil];
+    
+    //保存一个数组
+    BOOL res2 = [UserModel saveListModel:@[userModel]];
 }
 
 
@@ -57,6 +60,8 @@
     sv.contentView = imageV;
     sv.shimmering = YES;
     [self.view addSubview:sv];
+    
+    
 }
 
 
@@ -65,9 +70,18 @@
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
-    UserModel *userModel =[UserModel read];
+    //读取单个
+    UserModel *userModel =[UserModel readSingleModel];
     
-    NSLog(@"%@-%@",userModel.name,@(userModel.age));
+    NSLog(@"单个：%@-%@",userModel.name,@(userModel.age));
+    
+    
+    //读取数组
+    NSArray *listModel = [UserModel readListModel];
+    
+    [listModel enumerateObjectsUsingBlock:^(UserModel *userModel, NSUInteger idx, BOOL *stop) {
+        NSLog(@"数组：%@-%@",userModel.name,@(userModel.age));
+    }];
     
 }
 
