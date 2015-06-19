@@ -33,7 +33,7 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
 
 框架说明 EXPLAIN
 ===============
-     本框架是隶属说MJExtension续作，我给这个项目取了一个整体上的名字叫做：CoreModel。
+     本框架是隶属于MJExtension续作，我给这个项目取了一个整体上的名字叫做：CoreModel。
      Charlin Feng原创MJExtension续作的目的：一来是向MJExtension致敬，
      二是封装大量ios开发者均迫切需要的功能，就是对数据的本地CURD。基于这个原因，
      所以CoreArchive也成为了CoreModel的成员。当然CoreArchive也因为解耦的原因而独立存在。
@@ -95,7 +95,7 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
         
 
 以上均是静态方法调用，请简单吧。
-下面来看看自定义对象归档，同样是简单要爆表！
+下面来看看自定义对象归档，同样是简单得爆表！
 #### 准备工作：
      首先你得自定义一个对象，我这里以用户模型为例，建立一个用户模型
         @interface UserModel : NSObject
