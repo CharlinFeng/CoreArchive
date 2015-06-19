@@ -28,7 +28,7 @@
     
     userModel.age = 27;
     
-    BOOL res = [UserModel saveSingleModel:userModel];
+    BOOL res = [UserModel saveSingleModel:userModel forKey:nil];
     
     if(res){
         NSLog(@"保存成功");
@@ -40,7 +40,8 @@
 //    [UserModel save:nil];
     
     //保存一个数组
-    BOOL res2 = [UserModel saveListModel:@[userModel]];
+    BOOL res2 = [UserModel saveListModel:@[userModel] forKey:nil];
+
 }
 
 
@@ -71,13 +72,13 @@
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
     //读取单个
-    UserModel *userModel =[UserModel readSingleModel];
+    UserModel *userModel =[UserModel readSingleModelForKey:nil];
     
     NSLog(@"单个：%@-%@",userModel.name,@(userModel.age));
     
     
     //读取数组
-    NSArray *listModel = [UserModel readListModel];
+    NSArray *listModel = [UserModel readListModelForKey:nil];
     
     [listModel enumerateObjectsUsingBlock:^(UserModel *userModel, NSUInteger idx, BOOL *stop) {
         NSLog(@"数组：%@-%@",userModel.name,@(userModel.age));
