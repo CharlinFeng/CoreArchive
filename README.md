@@ -131,8 +131,8 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
         #import "CoreArchive.h"
         
         然后添加在.h和.m各添加一个宏即可：
-        .h头文件添加CoreArchiiver_MODEL_H
-        .m头文件添加CoreArchiiver_MODEL_M
+        .h头文件添加CoreArchiver_MODEL_H
+        .m头文件添加CoreArchiver_MODEL_M
         
         一切就搞定了，简单吧，做好之后，应该是如下图所示：
        
