@@ -2,10 +2,14 @@
 ![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/2.png)<br />
 
 
+-----
     Charlin出框架的目标：简单、易用、实用、高度封装、绝对解耦！
     
     The purpose of Charlin’s frame: simple, ease of use, practical, 
     highly packaged and absolute decoupling.
+-----
+
+
 
 
 
@@ -179,9 +183,4 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
  感谢小饭提供的英文翻译帮助，谢谢！
 <br /> <br /><br />
 
------
-    MJExtension续作之二：存储框架第二季CoreArchive
------
-
-<br /><br />
 
