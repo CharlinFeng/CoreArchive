@@ -157,7 +157,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
         //一键解档
         UserModel *userModel =[UserModel read];
         
-#### 一键解档自定义对象：
+#### 一键销毁自定义对象：
         //删除本地归档
         [UserModel save:nil];
         
