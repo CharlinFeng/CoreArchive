@@ -74,6 +74,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 >1.更方便快捷的方式保存读取数据。<br />
 >2.静态方式调用。<br />
 >3.基于MJExtension，有非常好用的宏定义，所以你可以一键完成文件的CURD。<br />
+>4.可以存储自定义单个对象，也可以存储自定义对象数组！
 <br />
 
 ####框架特别优势：<br />
@@ -149,17 +150,33 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
         userModel.name = @"张三";
         userModel.age = 27;
         
+
+
+#### 归档自定义对象：单个
 #### 一键归档自定义对象：
         //一键归档
-        BOOL res = [UserModel save:userModel];
+        BOOL res = [UserModel saveSingleModel:userModel];
 
 #### 一键解档自定义对象：
         //一键解档
-        UserModel *userModel =[UserModel read];
+        UserModel *userModel =[UserModel readSingleModel];
         
 #### 一键销毁自定义对象：
         //删除本地归档
         [UserModel save:nil];
+        
+#### 归档自定义对象：数组
+#### 一键归档自定义对象数组：
+        //一键归档
+        BOOL res = [UserModel saveListModel:@[userModel1,userModel2,...]];
+
+#### 一键解档自定义对象数组：
+        //一键解档
+        UserModel *userModel =[UserModel readListModel];
+        
+#### 一键销毁自定义对象数组：
+        //删除本地归档
+        [UserModel saveListModel:nil];
         
 
 
