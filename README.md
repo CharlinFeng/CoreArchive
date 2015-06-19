@@ -127,6 +127,11 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
         .m头文件添加CoreArchiiver_MODEL_M
         
         一切就搞定了，简单吧，做好之后，应该是如下图所示：
+        
+
+![image](./CoreArchive/1.png)<br />
+![image](./CoreArchive/2.png)<br />
+
 
 #### 创建一个对象备用：
         //创建一个对象备用
