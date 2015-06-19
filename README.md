@@ -180,7 +180,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 <br /> <br /><br />
 
 -----
-    CoreArchive 核心存储归档工具
+    MJExtension续作之二：存储框架第二季CoreArchive
 -----
 
 <br /><br />
