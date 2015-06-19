@@ -36,8 +36,8 @@
         NSLog(@"保存失败");
     }
     
-    //删除本地归档
-    [UserModel save:nil];
+//    //删除本地归档
+//    [UserModel save:nil];
 }
 
 
@@ -67,6 +67,7 @@
     
     UserModel *userModel =[UserModel read];
     
+    NSLog(@"%@-%@",userModel.name,@(userModel.age));
     
 }
 
