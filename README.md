@@ -1,5 +1,5 @@
 
-![image](./CoreFMDB/https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/2.png)<br />
+![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/2.png)<br />
 
 
     Charlin出框架的目标：简单、易用、实用、高度封装、绝对解耦！
@@ -13,6 +13,13 @@
    MJExtension续作之二：存储框架第二季CoreArchive
 
 <br /><br />
+
+
+
+框架截图 CUT
+===============
+![image](./CoreArchive/show.gif)<br />
+
 
 
 版权申明 RIGHTS
@@ -150,7 +157,7 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
 致谢 THANKS
 ===============
 #####1.感谢MJ    Thanks MJ!
-![image](./CoreFMDB/3.png)<br />
+![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/3.png)<br />
 感谢杰哥！致敬MJExtension！希望大家支持杰哥的事业！ <br />
 
 小码哥IT教育：http://www.520it.com
@@ -158,7 +165,7 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
  <br /> <br />
 #####2.感谢小饭   Thanks XiaoFan!
 
-![image](./CoreFMDB/4.png)<br />
+![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/4.png)<br />
  感谢小饭提供的英文翻译帮助，谢谢！
 <br /> <br />
 
