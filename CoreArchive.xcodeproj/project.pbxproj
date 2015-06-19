@@ -20,6 +20,8 @@
 		8963E72E1B33F09D0005ACC9 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8963E72B1B33F09D0005ACC9 /* FBShimmeringLayer.m */; };
 		8963E72F1B33F09D0005ACC9 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8963E72D1B33F09D0005ACC9 /* FBShimmeringView.m */; };
 		8963E7311B33F1F80005ACC9 /* show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7301B33F1F80005ACC9 /* show.gif */; };
+		8963E7341B33FD0F0005ACC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7321B33FD0F0005ACC9 /* 2.png */; };
+		8963E7351B33FD0F0005ACC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7331B33FD0F0005ACC9 /* 1.png */; };
 		EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8B1AA9A513000BA4AE /* main.m */; };
 		EE5A8A8F1AA9A513000BA4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8E1AA9A513000BA4AE /* AppDelegate.m */; };
 		EE5A8A921AA9A513000BA4AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A911AA9A513000BA4AE /* ViewController.m */; };
@@ -69,6 +71,8 @@
 		8963E72C1B33F09D0005ACC9 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
 		8963E72D1B33F09D0005ACC9 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 		8963E7301B33F1F80005ACC9 /* show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = show.gif; sourceTree = "<group>"; };
+		8963E7321B33FD0F0005ACC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		8963E7331B33FD0F0005ACC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		EE5A8A861AA9A513000BA4AE /* CoreArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5A8A8A1AA9A513000BA4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5A8A8B1AA9A513000BA4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 		EE5A8A891AA9A513000BA4AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8963E7321B33FD0F0005ACC9 /* 2.png */,
+				8963E7331B33FD0F0005ACC9 /* 1.png */,
 				8963E7301B33F1F80005ACC9 /* show.gif */,
 				EE5A8A8A1AA9A513000BA4AE /* Info.plist */,
 				EE5A8A8B1AA9A513000BA4AE /* main.m */,
@@ -323,6 +329,8 @@
 			files = (
 				EE5A8A951AA9A513000BA4AE /* Main.storyboard in Resources */,
 				8963E7311B33F1F80005ACC9 /* show.gif in Resources */,
+				8963E7341B33FD0F0005ACC9 /* 2.png in Resources */,
+				8963E7351B33FD0F0005ACC9 /* 1.png in Resources */,
 				EE5A8A9A1AA9A513000BA4AE /* LaunchScreen.xib in Resources */,
 				EE5A8A971AA9A513000BA4AE /* Images.xcassets in Resources */,
 			);
