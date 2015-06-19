@@ -36,19 +36,21 @@ return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
 #pragma mark - 偏好类信息存储
 
 /**
- *  保存普通字符串
+ *  保存Str
  */
 +(void)setStr:(NSString *)str key:(NSString *)key;
 
 /**
- *  读取
+ *  读取Str
  */
 +(NSString *)strForKey:(NSString *)key;
 
 /**
- *  删除
+ *  删除Str
  */
 +(void)removeStrForKey:(NSString *)key;
+
+
 
 
 /**
@@ -62,6 +64,12 @@ return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
 +(NSInteger)intForKey:(NSString *)key;
 
 
+/**
+ *  删除int
+ */
++(void)removeIntForKey:(NSString *)key;
+
+
 
 /**
  *  保存float
@@ -73,6 +81,10 @@ return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
  */
 +(CGFloat)floatForKey:(NSString *)key;
 
+/**
+ *  删除float
+ */
++(void)removeFloatForKey:(NSString *)key;
 
 
 /**
@@ -86,6 +98,11 @@ return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
  */
 +(double)doubleForKey:(NSString *)key;
 
+/**
+ *  删除
+ */
++(void)removeDoubleForKey:(NSString *)key;
+
 
 
 /**
@@ -97,6 +114,11 @@ return [CoreArchive unarchiveObjectWithFile:CoreArchiiver_CACHE_PATH];\
  *  读取bool
  */
 +(BOOL)boolForKey:(NSString *)key;
+
+/**
+ *  删除
+ */
++(void)removeBoolForKey:(NSString *)key;
 
 
 #pragma mark - 文件归档

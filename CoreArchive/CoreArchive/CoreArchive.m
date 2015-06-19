@@ -42,8 +42,9 @@
 +(void)removeStrForKey:(NSString *)key{
     
     [self setStr:nil key:key];
-
 }
+
+
 
 //保存int
 +(void)setInt:(NSInteger)i key:(NSString *)key{
@@ -69,6 +70,17 @@
     return i;
 }
 
+
+/**
+ *  删除int
+ */
++(void)removeIntForKey:(NSString *)key{
+    [self setInt:0 key:key];
+}
+
+
+
+
 //保存float
 +(void)setFloat:(CGFloat)floatValue key:(NSString *)key{
     
@@ -93,6 +105,15 @@
     
     return floatValue;
 }
+
+
+/**
+ *  删除float
+ */
++(void)removeFloatForKey:(NSString *)key{
+    [self setFloat:0 key:key];
+}
+
 
 
 /**
@@ -126,6 +147,13 @@
 }
 
 
+/**
+ *  删除
+ */
++(void)removeDoubleForKey:(NSString *)key{
+    [self setDouble:0 key:key];
+}
+
 
 //保存bool
 +(void)setBool:(BOOL)boolValue key:(NSString *)key{
@@ -151,6 +179,12 @@
 }
 
 
+/**
+ *  删除
+ */
++(void)removeBoolForKey:(NSString *)key{
+    [self setBool:NO key:key];
+}
 
 
 #pragma mark - 文件归档
