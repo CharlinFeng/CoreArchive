@@ -147,7 +147,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 #### 创建一个对象备用：
         //创建一个对象备用
         UserModel *userModel = [[UserModel alloc] init];
-        userModel.name = @"张三";
+        userModel.name = @"冯成林";
         userModel.age = 27;
         
 
