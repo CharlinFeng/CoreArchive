@@ -12,7 +12,7 @@
 
 @interface UserModel : NSObject
 
-CoreArchiiver_MODEL_H
+CoreArchiver_MODEL_H
 
 
 @property (nonatomic,copy) NSString *name;

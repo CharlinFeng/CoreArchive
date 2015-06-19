@@ -16,14 +16,14 @@
 
 #define CoreArchiver_ArrayCACHE_PATH [[NSString cachesFolder] stringByAppendingPathComponent:[NSString stringWithFormat:@"Array%@.arc",NSStringFromClass(self)]]
 
-#define CoreArchiiver_MODEL_H \
+#define CoreArchiver_MODEL_H \
 +(BOOL)saveSingleModel:(id)model;\
 +(instancetype)readSingleModel;\
 +(BOOL)saveListModel:(NSArray *)ListModel;\
 +(NSArray *)readListModel;\
 
 
-#define CoreArchiiver_MODEL_M \
+#define CoreArchiver_MODEL_M \
 MJCodingImplementation\
 +(BOOL)saveSingleModel:(id)model{\
 return [CoreArchive archiveRootObject:model toFile:CoreArchiver_SingCACHE_PATH];\
