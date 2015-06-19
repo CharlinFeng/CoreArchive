@@ -28,7 +28,7 @@
     
     userModel.age = 27;
     
-    BOOL res = [UserModel saveSingleModel:userModel forKey:nil];
+    BOOL res = [UserModel saveSingleModel:userModel forKey:@"charlin"];
     
     if(res){
         NSLog(@"保存成功");
@@ -72,7 +72,7 @@
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
     //读取单个
-    UserModel *userModel =[UserModel readSingleModelForKey:nil];
+    UserModel *userModel =[UserModel readSingleModelForKey:@"charlin"];
     
     NSLog(@"单个：%@-%@",userModel.name,@(userModel.age));
     
