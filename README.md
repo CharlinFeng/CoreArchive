@@ -31,12 +31,12 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
 一群：163865401（已爆满，加不上了）  <br /><br />
 
 
-框架说明 WHAT
+框架说明 EXPLAIN
 ===============
      本框架是隶属说MJExtension续作，我给这个项目取了一个整体上的名字叫做：CoreModel。
-     Charlin Feng原创MJExtension续作的目的：一来是向MJExtension致敬，二是封装大量ios开发者均迫切需要的功能，
-     就是对数据的本地CURD。基于这个原因，所以CoreArchive也成为了CoreModel的成员。当然CoreArchive也因为解耦的原因
-     而独立存在。
+     Charlin Feng原创MJExtension续作的目的：一来是向MJExtension致敬，
+     二是封装大量ios开发者均迫切需要的功能，就是对数据的本地CURD。基于这个原因，
+     所以CoreArchive也成为了CoreModel的成员。当然CoreArchive也因为解耦的原因而独立存在。
 
 
 <br/><br/>
@@ -139,19 +139,7 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
 
 <br/>
 
-
-
-
-
-
-
-
-
------
-    CoreArchive 核心存储归档工具
------
-
-<br /><br />
+<br /> <br /><br />
 
 
 致谢 THANKS
@@ -167,5 +155,11 @@ Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式�
 
 ![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/4.png)<br />
  感谢小饭提供的英文翻译帮助，谢谢！
-<br /> <br />
+<br /> <br /><br />
+
+-----
+    CoreArchive 核心存储归档工具
+-----
+
+<br /><br />
 
