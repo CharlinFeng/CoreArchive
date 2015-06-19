@@ -24,7 +24,7 @@
     
     UserModel *userModel = [[UserModel alloc] init];
     
-    userModel.name = @"张三";
+    userModel.name = @"冯成林";
     
     userModel.age = 27;
     
