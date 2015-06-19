@@ -25,6 +25,9 @@ CoreModel系列： 请看！！！
 第一季：CoreFMDB
 https://github.com/nsdictionary/CoreFMDB
 
+第二季：CoreArchive
+https://github.com/nsdictionary/CoreArchive
+
 
 本框架是隶属于MJExtension续作，我给这系列框架取了一个整体上的名字叫做：CoreModel。
 CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态
