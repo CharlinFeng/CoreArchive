@@ -28,6 +28,14 @@ https://github.com/nsdictionary/CoreFMDB
 第二季：CoreArchive
 https://github.com/nsdictionary/CoreArchive
 
+第三季：CoreClass
+https://github.com/nsdictionary/CoreClass
+
+第四季：CoreModel模型动态缓存、列表模型动态缓存
+请加群归队，获取最新信息（群信息在下面）！请支持第三季！
+
+第五季：动态缓存list终结者。
+请加群归队，获取最新信息（群信息在下面）！请支持第三季！
 
 本框架是隶属于MJExtension续作，我给这系列框架取了一个整体上的名字叫做：CoreModel。
 CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态
