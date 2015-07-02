@@ -38,7 +38,7 @@ https://github.com/nsdictionary/CoreClass
 暂未开源！请加群归队，获取最新信息（群信息在下面）！请支持第三季！
 
 本框架是隶属于MJExtension续作，我给这系列框架取了一个整体上的名字叫做：CoreModel。
-CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态
+CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态！<br />
 成都iOS开发群：<br />
 二群：369870753（新开，新鲜着呢，快加） <br />
 一群：163865401（已爆满，加不上了）  <br /><br />
