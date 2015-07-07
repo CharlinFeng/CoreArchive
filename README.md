@@ -190,11 +190,11 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
 
 <br/><br/>
 #### 【新增】版本号管理：
-首页导入头文件：
+首先导入头文件：
 
         #import "CoreArchive+Version.h"
     
-使用以下三个方法，可轻松管理您的版本号：
+使用以下三个方法，可轻松管理您的版本号：：
 
         /** 保存当前版本信息 */
         +(void)saveCurrentVersionInfo;
@@ -204,7 +204,7 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
         +(BOOL)isSavedCurrentVersionInfo;
         
         
-        /** 当前程序的版本号 */
+        /** 当前程序的版本号：系统版本号，非归档本地版本号 */
         +(NSString *)currentVersion;
 
 
