@@ -13,6 +13,7 @@
 #import "CoreArchiveHeader.h"
 
 
+
 @interface CoreArchive : NSObject
 
 #pragma mark - 偏好类信息存储

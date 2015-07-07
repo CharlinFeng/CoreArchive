@@ -21,6 +21,7 @@
 		8963E7311B33F1F80005ACC9 /* show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7301B33F1F80005ACC9 /* show.gif */; };
 		8963E7341B33FD0F0005ACC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7321B33FD0F0005ACC9 /* 2.png */; };
 		8963E7351B33FD0F0005ACC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7331B33FD0F0005ACC9 /* 1.png */; };
+		8998F66A1B4BBE3A002B1AB8 /* CoreArchive+Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 8998F6691B4BBE3A002B1AB8 /* CoreArchive+Version.m */; };
 		899FBEA51B3444240094370A /* NSString+ArcFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 899FBEA11B3444240094370A /* NSString+ArcFile.m */; };
 		899FBEA61B3444240094370A /* CoreArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 899FBEA31B3444240094370A /* CoreArchive.m */; };
 		EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A8A8B1AA9A513000BA4AE /* main.m */; };
@@ -71,6 +72,8 @@
 		8963E7301B33F1F80005ACC9 /* show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = show.gif; sourceTree = "<group>"; };
 		8963E7321B33FD0F0005ACC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		8963E7331B33FD0F0005ACC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8998F6681B4BBE3A002B1AB8 /* CoreArchive+Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreArchive+Version.h"; sourceTree = "<group>"; };
+		8998F6691B4BBE3A002B1AB8 /* CoreArchive+Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreArchive+Version.m"; sourceTree = "<group>"; };
 		899FBEA01B3444240094370A /* NSString+ArcFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArcFile.h"; sourceTree = "<group>"; };
 		899FBEA11B3444240094370A /* NSString+ArcFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArcFile.m"; sourceTree = "<group>"; };
 		899FBEA21B3444240094370A /* CoreArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreArchive.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 			children = (
 				899FBEA01B3444240094370A /* NSString+ArcFile.h */,
 				899FBEA11B3444240094370A /* NSString+ArcFile.m */,
+				8998F6681B4BBE3A002B1AB8 /* CoreArchive+Version.h */,
+				8998F6691B4BBE3A002B1AB8 /* CoreArchive+Version.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				8963E72E1B33F09D0005ACC9 /* FBShimmeringLayer.m in Sources */,
 				EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */,
 				890DD9041B1C2B120000349C /* MJFoundation.m in Sources */,
+				8998F66A1B4BBE3A002B1AB8 /* CoreArchive+Version.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
