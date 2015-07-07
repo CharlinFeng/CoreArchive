@@ -188,7 +188,27 @@ CoreArchive是系列第二季，共有5季，连载中，允加群关注最新�
         [UserModel saveListModel:nil forKey:nil];
         
 
+<br/><br/>
+#### 【新增】版本号管理：
+首页导入头文件：
 
+        #import "CoreArchive+Version.h"
+    
+使用以下三个方法，可轻松管理您的版本号：
+
+        /** 保存当前版本信息 */
+        +(void)saveCurrentVersionInfo;
+        
+        
+        /** 本地是否已经保存过当前版本信息 */
+        +(BOOL)isSavedCurrentVersionInfo;
+        
+        
+        /** 当前程序的版本号 */
+        +(NSString *)currentVersion;
+
+
+<br/><br/>
 好了，简单吧，整体过程你不需要关心key，path这些，框架已经做好了.<br />
 注：应要求添加了自定义key的支持。<br />
 key：默认传nil为框架自动计算key，你也可以自定义key。当然，你存取key要保持一致。
