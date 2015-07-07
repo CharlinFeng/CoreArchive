@@ -19,7 +19,7 @@
 +(BOOL)isSavedCurrentVersionInfo;
 
 
-/** 当前程序的版本号 */
+/** 当前程序的版本号：系统版本号，非归档本地版本号 */
 +(NSString *)currentVersion;
 
 
