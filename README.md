@@ -22,6 +22,9 @@
 CoreModel系列： 请看！！！
 ===============
 
+#### 重磅推出：Swift版的MJExtension，运行时、反射与一键字典模型互转
+文档：https://github.com/nsdictionary/CFRuntime
+
 第一季：CoreFMDB
 https://github.com/nsdictionary/CoreFMDB
 
@@ -252,5 +255,4 @@ key：默认传nil为框架自动计算key，你也可以自定义key。当然�
 ![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/4.png)<br />
  感谢小饭提供的英文翻译帮助，谢谢！
 <br /> <br /><br />
-
 
