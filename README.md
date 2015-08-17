@@ -19,55 +19,6 @@
 <br /><br />
 
 
-CoreModel系列： 请看！！！
-===============
-
-#### 重磅推出：Swift版的MJExtension，运行时、反射与一键字典模型互转
-文档：https://github.com/nsdictionary/CFRuntime
-
-第一季：CoreFMDB
-https://github.com/nsdictionary/CoreFMDB
-
-第二季：CoreArchive
-https://github.com/nsdictionary/CoreArchive
-
-第三季：CoreClass
-https://github.com/nsdictionary/CoreClass
-
-第四季：CoreModel模型动态缓存、列表模型动态缓存<br />
-暂未开源！请加群归队，获取最新信息（群信息在下面）！请支持第三季！
-
-第五季：动态缓存list终结者。<br />
-暂未开源！请加群归队，获取最新信息（群信息在下面）！请支持第三季！
-
-本框架是隶属于MJExtension续作，我给这系列框架取了一个整体上的名字叫做：CoreModel。
-CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态！<br /><br />
-
-<br /><br />
-
-组织信息 Charlin Feng：
-===============
-<br />
-#### 特别群：请西部省市朋友实名加入组织。其他地区朋友请添加2-4群：谢谢。
-<br />
-【西部区域】西部大开发群号： 473185026  -追赶北上广！为振兴西部IT而努力！<br />
-热烈欢迎中国西部各省市的从事iOS开发朋友实名进群！本群为是聚集西部零散开发者，大家齐心协力共进退！ <br /><br />
-
-【全国可加】四群： 347446259<br />
-新开，可加！欢迎全国朋友加入组织 <br /><br />
-
-【全国可加】三群： 474377358<br />
-新开，可加！欢迎全国朋友加入组织 <br /><br />
-
-【全国可加】二群： 369870753<br />
-**WORNING: 已爆满，加不上了**<br /><br />
-
-【全国可加】一群：163865401<br />
-**WORNING: 已爆满，加不上了**<br /><br />
-
-<br /><br />
-
-
 
 框架截图 CUT
 ===============
@@ -255,4 +206,53 @@ key：默认传nil为框架自动计算key，你也可以自定义key。当然�
 ![image](https://github.com/nsdictionary/CoreFMDB/blob/master/CoreFMDB/4.png)<br />
  感谢小饭提供的英文翻译帮助，谢谢！
 <br /> <br /><br />
+
+CoreModel系列： 请看！！！
+===============
+
+#### 重磅推出：Swift版的MJExtension，运行时、反射与一键字典模型互转
+文档：https://github.com/nsdictionary/CFRuntime
+
+第一季：CoreFMDB
+https://github.com/nsdictionary/CoreFMDB
+
+第二季：CoreArchive
+https://github.com/nsdictionary/CoreArchive
+
+第三季：CoreClass
+https://github.com/nsdictionary/CoreClass
+
+第四季：CoreModel模型动态缓存、列表模型动态缓存<br />
+暂未开源！请加群归队，获取最新信息（群信息在下面）！请支持第三季！
+
+第五季：动态缓存list终结者。<br />
+暂未开源！请加群归队，获取最新信息（群信息在下面）！请支持第三季！
+
+本框架是隶属于MJExtension续作，我给这系列框架取了一个整体上的名字叫做：CoreModel。
+CoreArchive是系列第二季，共有5季，连载中，允加群关注最新动态！<br /><br />
+
+<br /><br />
+
+组织信息 Charlin Feng：
+===============
+<br />
+#### 特别群：请西部省市朋友实名加入组织。其他地区朋友请添加2-4群：谢谢。
+<br />
+【西部区域】西部大开发群号： 473185026  -追赶北上广！为振兴西部IT而努力！<br />
+热烈欢迎中国西部各省市的从事iOS开发朋友实名进群！本群为是聚集西部零散开发者，大家齐心协力共进退！ <br /><br />
+
+【全国可加】四群： 347446259<br />
+新开，可加！欢迎全国朋友加入组织 <br /><br />
+
+【全国可加】三群： 474377358<br />
+新开，可加！欢迎全国朋友加入组织 <br /><br />
+
+【全国可加】二群： 369870753<br />
+**WORNING: 已爆满，加不上了**<br /><br />
+
+【全国可加】一群：163865401<br />
+**WORNING: 已爆满，加不上了**<br /><br />
+
+<br /><br />
+
 
