@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zfa-un-nMR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zfa-un-nMR">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -14,56 +15,61 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Oej-5N-AMe"/>
+                        <segue destination="RPJ-uK-hdQ" kind="relationship" relationship="rootViewController" id="bmT-N8-JUC"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmN-dO-QC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-107" y="298"/>
         </scene>
-        <!--成都-冯成林（Charlin Feng）-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--中国.成都.冯成林原创-->
+        <scene sceneID="s6W-d3-Xex">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="RPJ-uK-hdQ" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="aIe-J3-jik"/>
+                        <viewControllerLayoutGuide type="bottom" id="zKV-JD-2aU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="view" contentMode="scaleToFill" id="HkF-3m-PQH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MJExtension续作之二！ CoreArchive 核心一键归档利器" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvI-qV-2Ty">
-                                <rect key="frame" x="0.0" y="248" width="320" height="72"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoreArchive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSi-OA-5JA">
+                                <rect key="frame" x="40" y="144" width="520" height="260"/>
+                                <color key="backgroundColor" red="1" green="0.6124935775" blue="0.53462065719999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WSi-OA-5JA" secondAttribute="height" multiplier="2:1" id="53P-QI-WVp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ios-android.cn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4J-Rx-N5d">
-                                <rect key="frame" x="105" y="539" width="111" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UT-Pb-vQN">
-                                <rect key="frame" x="10" y="422" width="301" height="115"/>
-                                <string key="text">Charlin Feng（成都-冯成林）为本框架原作者，如果有任何形式的借鉴，请在您的Github里面注意来源，谢谢！
-成都iOS开发群：
-二群：369870753（新开，新鲜着呢，快加） 
-一群：163865401（已爆满，加不上了） </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoreModel系列之二  OC收山之作" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-X9-j1s">
+                                <rect key="frame" x="0.0" y="490" width="600" height="90"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.46000000000000002" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="b9U-6l-201"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="l5j-X9-j1s" secondAttribute="trailing" id="7lG-e4-bLb"/>
+                            <constraint firstAttribute="trailing" secondItem="WSi-OA-5JA" secondAttribute="trailing" constant="40" id="Oag-ao-aEA"/>
+                            <constraint firstItem="l5j-X9-j1s" firstAttribute="leading" secondItem="HkF-3m-PQH" secondAttribute="leading" id="Udj-f6-7gl"/>
+                            <constraint firstItem="zKV-JD-2aU" firstAttribute="top" secondItem="l5j-X9-j1s" secondAttribute="bottom" constant="20" id="ams-DS-Bs1"/>
+                            <constraint firstItem="WSi-OA-5JA" firstAttribute="top" secondItem="aIe-J3-jik" secondAttribute="bottom" constant="80" id="dCZ-xr-R4S"/>
+                            <constraint firstItem="WSi-OA-5JA" firstAttribute="leading" secondItem="HkF-3m-PQH" secondAttribute="leading" constant="40" id="jHN-JR-oGt"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="成都-冯成林（Charlin Feng）" id="sf0-Y4-YR9"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationItem key="navigationItem" title="中国.成都.冯成林原创" id="CBJ-T1-YE4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3QB-EY-GWv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="554" y="298"/>
+            <point key="canvasLocation" x="539" y="298"/>
         </scene>
     </scenes>
 </document>

@@ -16,9 +16,6 @@
 		890DD9081B1C2B120000349C /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 890DD8FE1B1C2B120000349C /* NSObject+MJKeyValue.m */; };
 		890DD9091B1C2B120000349C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 890DD9001B1C2B120000349C /* NSObject+MJProperty.m */; };
 		890DD90A1B1C2B120000349C /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 890DD9021B1C2B120000349C /* NSString+MJExtension.m */; };
-		8963E72E1B33F09D0005ACC9 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8963E72B1B33F09D0005ACC9 /* FBShimmeringLayer.m */; };
-		8963E72F1B33F09D0005ACC9 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8963E72D1B33F09D0005ACC9 /* FBShimmeringView.m */; };
-		8963E7311B33F1F80005ACC9 /* show.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7301B33F1F80005ACC9 /* show.gif */; };
 		8963E7341B33FD0F0005ACC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7321B33FD0F0005ACC9 /* 2.png */; };
 		8963E7351B33FD0F0005ACC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8963E7331B33FD0F0005ACC9 /* 1.png */; };
 		8998F66A1B4BBE3A002B1AB8 /* CoreArchive+Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 8998F6691B4BBE3A002B1AB8 /* CoreArchive+Version.m */; };
@@ -63,13 +60,6 @@
 		890DD9001B1C2B120000349C /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		890DD9011B1C2B120000349C /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		890DD9021B1C2B120000349C /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		8963E7281B33F09D0005ACC9 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
-		8963E7291B33F09D0005ACC9 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
-		8963E72A1B33F09D0005ACC9 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
-		8963E72B1B33F09D0005ACC9 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
-		8963E72C1B33F09D0005ACC9 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
-		8963E72D1B33F09D0005ACC9 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
-		8963E7301B33F1F80005ACC9 /* show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = show.gif; sourceTree = "<group>"; };
 		8963E7321B33FD0F0005ACC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		8963E7331B33FD0F0005ACC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		8998F6681B4BBE3A002B1AB8 /* CoreArchive+Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreArchive+Version.h"; sourceTree = "<group>"; };
@@ -124,7 +114,6 @@
 		890DD8F01B1C2AB30000349C /* FrameWorks */ = {
 			isa = PBXGroup;
 			children = (
-				8963E7271B33F09D0005ACC9 /* FBShimmering */,
 				890DD8F11B1C2B120000349C /* MJExtension */,
 			);
 			path = FrameWorks;
@@ -152,19 +141,6 @@
 				890DD9021B1C2B120000349C /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		8963E7271B33F09D0005ACC9 /* FBShimmering */ = {
-			isa = PBXGroup;
-			children = (
-				8963E7281B33F09D0005ACC9 /* FBShimmering-Prefix.pch */,
-				8963E7291B33F09D0005ACC9 /* FBShimmering.h */,
-				8963E72A1B33F09D0005ACC9 /* FBShimmeringLayer.h */,
-				8963E72B1B33F09D0005ACC9 /* FBShimmeringLayer.m */,
-				8963E72C1B33F09D0005ACC9 /* FBShimmeringView.h */,
-				8963E72D1B33F09D0005ACC9 /* FBShimmeringView.m */,
-			);
-			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 		899FBE9E1B3444240094370A /* CoreArchive */ = {
@@ -238,7 +214,6 @@
 			children = (
 				8963E7321B33FD0F0005ACC9 /* 2.png */,
 				8963E7331B33FD0F0005ACC9 /* 1.png */,
-				8963E7301B33F1F80005ACC9 /* show.gif */,
 				EE5A8A8A1AA9A513000BA4AE /* Info.plist */,
 				EE5A8A8B1AA9A513000BA4AE /* main.m */,
 			);
@@ -343,7 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5A8A951AA9A513000BA4AE /* Main.storyboard in Resources */,
-				8963E7311B33F1F80005ACC9 /* show.gif in Resources */,
 				8963E7341B33FD0F0005ACC9 /* 2.png in Resources */,
 				8963E7351B33FD0F0005ACC9 /* 1.png in Resources */,
 				EE5A8A9A1AA9A513000BA4AE /* LaunchScreen.xib in Resources */,
@@ -367,7 +341,6 @@
 			files = (
 				EE5A8A921AA9A513000BA4AE /* ViewController.m in Sources */,
 				890DD9031B1C2B120000349C /* MJConst.m in Sources */,
-				8963E72F1B33F09D0005ACC9 /* FBShimmeringView.m in Sources */,
 				899FBEA61B3444240094370A /* CoreArchive.m in Sources */,
 				890DD8EF1B1C29AD0000349C /* UserModel.m in Sources */,
 				890DD9091B1C2B120000349C /* NSObject+MJProperty.m in Sources */,
@@ -378,7 +351,6 @@
 				890DD9061B1C2B120000349C /* MJType.m in Sources */,
 				890DD90A1B1C2B120000349C /* NSString+MJExtension.m in Sources */,
 				EE5A8A8F1AA9A513000BA4AE /* AppDelegate.m in Sources */,
-				8963E72E1B33F09D0005ACC9 /* FBShimmeringLayer.m in Sources */,
 				EE5A8A8C1AA9A513000BA4AE /* main.m in Sources */,
 				890DD9041B1C2B120000349C /* MJFoundation.m in Sources */,
 				8998F66A1B4BBE3A002B1AB8 /* CoreArchive+Version.m in Sources */,
