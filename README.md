@@ -80,35 +80,38 @@ Let's look at a custom object archiving, the same burst table is so simple!
 #### A key archive custom objects: key: The default pass nil for the framework automatically calculate key, you can also customize key
         //One Key Archive
         BOOL res = [UserModel saveSingleModel:userModel forKey:@"charlin"];
-
+ <br />
 #### One Key UnArchive Custom Model：
         //One Key UnArchive
         UserModel *userModel =[UserModel readSingleModelForKey];
         
+ <br />
 #### One Key Remove Custom Model ：
         //Remove
         [UserModel save:nil forKey:@"charlin"];
         
+<br />
 #### Archive Custom Objects: Array. key: The default pass nil for the frame automatically calculate key, you can also customize key
+<br />
 #### A key custom object array Archive：
         //array Archive
         BOOL res = [UserModel saveListModel:@[userModel1,userModel2,...] forKey:nil];
-
+<br />
 #### A key custom object array UnArchive：
         //UnArchive
         NSArray *listModel = [UserModel readListModelForKey];
         
+<br />
 #### Remove Archive of Array：
         //Remove
         [UserModel saveListModel:nil forKey:nil];
         
 
 <br/><br/>
-#### ：
-[New] version management
+#### [New] version management：
 
         #import "CoreArchive+Version.h"
-    
+<br />    
 Use the following three methods, you can easily manage your version number：
 
         /** Save current version information */
@@ -127,10 +130,6 @@ Use the following three methods, you can easily manage your version number：
 Well, it is simple, you do not need to be concerned about the overall process key, path these, the framework has already done.<br />
 
 key: The default pass nil for the frame automatically calculate key, you can also customize key. Of course, you want to be consistent access key.
-
-
-<br /> <br /><br />
-
 
 <br/><br/><br/>
 Career
@@ -151,5 +150,12 @@ Two：CoreArchive
 
 Three：CoreClass
 [https://github.com/nsdictionary/CoreClass](https://github.com/nsdictionary/CoreClass)
+
+
 <br /><br />
+#### QQ Info
+QQ group 3： 474377358<br/>
+QQ group 4： 347446259<br/>
+QQ group for west of china： 473185026（true name）<br/>
+QQ group for swift： 467237044<br/>
 
